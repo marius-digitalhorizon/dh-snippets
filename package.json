@@ -2,9 +2,13 @@
     "name": "dh-snippets",
     "displayName": "dh-snippets",
     "description": "Snippets for Digital Horizon GmbH",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "publisher": "marius-dh",
-    "icon": "dh-logo.jpg",
+    "icon": "vs-dh-logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/marius-digitalhorizon/dh-snippets.git"
+    },
     "engines": {
         "vscode": "^1.40.0"
     },
