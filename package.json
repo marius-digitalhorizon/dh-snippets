@@ -1,0 +1,22 @@
+{
+    "name": "dh-snippets",
+    "displayName": "dh-snippets",
+    "description": "Snippets for Digital Horizon GmbH",
+    "version": "1.0.1",
+    "publisher": "marius-dh",
+    "icon": "dh-logo.jpg",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

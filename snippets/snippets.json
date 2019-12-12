@@ -1,0 +1,44 @@
+{
+    "console.log(object)": {
+		"prefix": "clg",
+		"body": [
+		  "console.log('${1:name} => '${2:object})"
+		],
+		"description": "console.log(object)"
+	},
+	"destructure required package require('');": {
+		"prefix": "drq",
+		"body": [
+		  "const { ${1:param} } = require('${2:package-name}')"
+		],
+		"description": "destructure required package require('');"
+	},
+	"destructing object": {
+		"prefix": "dob",
+		"body": [
+			"const { ${1:param} } = ${2:object}"
+		],
+		"description": "destructing object"
+	},
+	"creates a new Promise": {
+		"prefix": "prom",
+		"body": [
+		  "new Promise((resolve, reject) => {$0});"
+		],
+		"description": "creates a new Promise"
+	},
+	"creates an anonymous function": {
+		"prefix": "anfn",
+		"body": [
+		  "(${1:params}) => {$0}"
+		],
+		"description": "creates an anonymous function"
+	},
+	"creates a named function": {
+		"prefix": "nfn",
+		"body": [
+		  "const ${1:name} = (${2:params}) => {$0}"
+		],
+		"description": "creates a named function"
+	}
+}
